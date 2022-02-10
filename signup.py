@@ -211,7 +211,10 @@ class Ui_Form(object):
 
         mydb.commit()
 
-        print(mycursor.rowcount, "record inserted.") 
+        msg = QMessageBox()
+        msg.setWindowTitle("successfull")
+        msg.setText("login Successfull")
+        x = msg.exec_()
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
