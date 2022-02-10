@@ -163,7 +163,7 @@ class Ui_Dialog(object):
         else:
                 msg = QMessageBox()
                 msg.setWindowTitle("successfull")
-                msg.setText("login Successfull")
+                msg.setText("logged Successfull")
                 x = msg.exec_()
    
 #     def show_popup(self):

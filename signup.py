@@ -212,9 +212,10 @@ class Ui_Form(object):
         mydb.commit()
 
         msg = QMessageBox()
-        msg.setWindowTitle("successfull")
+        msg.setWindowTitle("Registration successfull")
         msg.setText("login Successfull")
         x = msg.exec_()
+        
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
